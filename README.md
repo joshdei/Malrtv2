@@ -1,4 +1,4 @@
-```markdown
+markdown
 # Mini Marlt
 
 Mini Marlt is a web application that helps users create and sell their products online. It also features a functionality to match sellers with the nearest buyers, ensuring a convenient and efficient transaction process.
@@ -20,28 +20,28 @@ Mini Marlt is a platform designed to facilitate the buying and selling of produc
 To get started with Mini Marlt, follow these steps:
 
 1. **Clone the repository**:
-    ```bash
+    bash
     git clone github.com/joshdei/Malrtv2.git
-    ```
+    
 2. **Install dependencies**:
-    ```bash
+    bash
     cd minimarlt
     composer install
     npm install
-    ```
+    
 3. **Set up environment variables**:
-    ```bash
+    bash
     cp .env.example .env
     php artisan key:generate
-    ```
+    
 4. **Run migrations**:
-    ```bash
+    bash
     php artisan migrate
-    ```
+    
 5. **Start the development server**:
-    ```bash
+    bash
     php artisan serve
-    ```
+    
 
 ## Contributing
 
@@ -55,7 +55,3 @@ Please review and abide by the Code of Conduct to ensure a welcoming and inclusi
 
 If you discover a security vulnerability within Mini Marlt, please send an e-mail to the project maintainers. All security vulnerabilities will be promptly addressed.
 
-## License
-
-The Mini Marlt application is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-```
